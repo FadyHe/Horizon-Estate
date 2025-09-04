@@ -9,7 +9,7 @@ export function Footer () {
             <p className="text-gray-500 outfit -mt-3 ml-5 text-xl ">Horizon Estates – Building Dreams, Creating Futures.</p>
           </section>
 
-          <section className="ml-5 my-5">
+          <section className="ml-5 my-10">
             <h1 className="outfit text-3xl text-white -ml-2 md:text-3xl mb-3">Company</h1>
             <ul className="text-gray-500 outfit text-xl gap-y-1.5 flex flex-col ">
               <li className="hover:opacity-85 cursor-pointer active:scale-97 duration-300"><a href="">Home</a></li>
@@ -19,7 +19,7 @@ export function Footer () {
             </ul>
           </section>
 
-          <section className="ml-5 my-5">
+          <section className="my-9">
             <h1 className="outfit text-3xl text-white -ml-2 md:text-3xl mb-3">Address</h1>
             <ul className="text-gray-500 outfit text-xl gap-y-1.5 flex flex-col ">
               <li className="hover:opacity-85 cursor-pointer active:scale-97 duration-300"><a href="">Horizon Estates Products, Inc. <br /> 5st. lestro Way</a></li>
@@ -29,7 +29,7 @@ export function Footer () {
             </ul>
           </section>
 
-          <section className="ml-5 my-5">
+          <section className="my-5">
             <h1 className="outfit text-3xl text-white -ml-2 md:text-3xl mb-3">Subscribe to our newsletter</h1>
             <p className="text-gray-500 outfit text-xl mb-4">The latest news, articles, and resources, sent to your inbox weekly.</p>
             <label htmlFor="email" className="flex flex-row gap-2">
