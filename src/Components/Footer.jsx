@@ -2,7 +2,7 @@ import Brand from "./Brand.jsx"
 export function Footer () {
   return(
     <>
-      <footer className=" bg-gray-900 flex flex-col justify-start gap-3 outfit p-4 absolute bottom-0 m-auto w-full">
+      <footer className=" bg-gray-900 flex flex-col justify-start gap-3 outfit p-4 m-auto w-full ">
         <div className="flex flex-col justify-start gap-3 sm:gap-30 sm:flex sm:flex-row sm:justify-between sm:items-start w-full">
           <section className="mb-5">
             <Brand />
