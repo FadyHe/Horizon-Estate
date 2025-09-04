@@ -3,7 +3,7 @@ export function Footer () {
   return(
     <>
       <footer className=" bg-gray-900 flex flex-col justify-start gap-3 outfit p-4 m-auto w-full ">
-        <div className="flex flex-col justify-start gap-3 md:gap-30 md:flex md:flex-row md:justify-between md:items-start w-full">
+        <div className="flex flex-col whitespace-pre-wrap justify-start gap-3 md:grid md:grid-cols-4 md:gap-10 w-full">
           <section className="mb-5">
             <Brand />
             <p className="text-gray-500 outfit -mt-3 ml-5 text-xl ">Horizon Estates – Building Dreams, Creating Futures.</p>
@@ -25,7 +25,7 @@ export function Footer () {
               <li className="hover:opacity-85 cursor-pointer active:scale-97 duration-300"><a href="">Horizon Estates Products, Inc. <br /> 5st. lestro Way</a></li>
               <li className="hover:opacity-85 cursor-pointer active:scale-97 duration-300"><a href="">Phone: 15569</a></li>
               <li className="hover:opacity-85 cursor-pointer active:scale-97 duration-300"><a href="">Email:</a></li>
-              <li className="hover:opacity-85 cursor-pointer active:scale-97 duration-300"><a href="inquires@horizonestates.com">inquires@horizonestates.com</a></li>
+              <li className="hover:opacity-85 cursor-pointer active:scale-97 duration-300 wrap-anywhere"><a href="inquires@horizonestates.com">inquires@horizonestates.com</a></li>
             </ul>
           </section>
 
