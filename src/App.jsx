@@ -1,7 +1,10 @@
 import AboutUs from "./Components/AboutUs.jsx"
-import Brand from "./Components/Brand.jsx"
-import { Footer } from "./Components/Footer.jsx"
+import Footer from "./Components/Footer.jsx"
 import Header from "./Components/Header.jsx"
+import Projects from "./Components/Projects.jsx"
+import 'flowbite';
+
+
 function App() {
 
   return (
@@ -9,6 +12,7 @@ function App() {
       <Header />
       <main className="flex-grow">
         <AboutUs />
+        <Projects />
       </main>
       <Footer />
     </div>

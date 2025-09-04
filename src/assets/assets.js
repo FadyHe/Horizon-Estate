@@ -1,5 +1,3 @@
-import logo from './logo.svg'
-import logo_dark from './logo_dark.svg'
 import cross_icon from './cross_icon.svg'
 import menu_icon from './menu_icon.svg'
 import star_icon from './star_icon.svg'
@@ -18,8 +16,6 @@ import profile_img_2 from './profile_img_2.png'
 import profile_img_3 from './profile_img_3.png'
 
 export const assets = {
-    logo,
-    logo_dark,
     cross_icon,
     menu_icon,
     star_icon,
@@ -36,37 +32,37 @@ export const assets = {
 export const projectsData = [
     {
       title: "Skyline Haven",
-      price: "$2,50,000",
+      price: "$500,000",
       location: "California",
       image: project_img_1
     },
     {
       title: "Vista Verde",
-      price: "$2,50,000",
+      price: "$1,500,000",
       location: "San Francisco",
       image: project_img_2
     },
     {
       title: "Serenity Suites",
-      price: "$2,50,000",
+      price: "$20,300,000",
       location: "Chicago",
       image: project_img_3
     },
     {
       title: "Central Square",
-      price: "$2,50,000",
+      price: "$3,500,000",
       location: "Los Angeles",
       image: project_img_4
     },
     {
       title: "Vista Verde",
-      price: "$2,50,000",
+      price: "$10,500,000",
       location: "San Francisco",
       image: project_img_5
     },
     {
       title: "Serenity Suites",
-      price: "$2,50,000",
+      price: "$5,500,000",
       location: "Chicago",
       image: project_img_6
     },
