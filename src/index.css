@@ -10,3 +10,51 @@
 }
 
 
+
+@layer theme {
+  @keyframes open-menu {
+    0% {
+      transform: scaleY(0);
+    }
+    80% {
+      transform: scaleY(0.8);
+    }
+    100% {
+      transform: scaleY(1);
+    }
+  }
+  .animate-open-menu {
+    animation: open-menu 0.3s ease-in-out forwards;
+  }
+  .section-min-height {
+    min-height: calc(100vh - 68px);
+  }
+}
+
+@layer components {
+  .hamburger-btn {
+    @apply relative w-8 h-8;
+  }
+  .hamburger-btn div {
+    @apply w-8 h-1 bg-white absolute top-1/2 -translate-y-1/2 transition-all duration-300;
+  }
+  .hamburger-btn div::before,
+  .hamburger-btn div::after {
+    @apply content-[''] absolute left-0 w-8 h-1 bg-white transition-all duration-300;
+  }
+  .hamburger-btn div::before {
+    @apply -top-3;
+  }
+  .hamburger-btn div::after {
+    @apply top-3;
+  }
+  .toggle-btn div {
+    @apply bg-transparent;
+  }
+  .toggle-btn div::before {
+    @apply rotate-45 translate-y-3;
+  }
+  .toggle-btn div::after {
+    @apply -rotate-45 -translate-y-3;
+  }
+}
