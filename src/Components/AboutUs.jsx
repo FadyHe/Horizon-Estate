@@ -2,7 +2,7 @@ import brandImg from "../assets/brand_img.png"
 function AboutUs() {
   return(
     <>
-      <section className="w-full outfit flex flex-col items-center max-h-screen my-10">
+      <section className="w-full outfit flex flex-col items-center my-10">
         
         <section className="flex flex-col items-center mb-10">
           <h1 className="text-5xl font-bold">About <span className=" font-light underline">Our Brand</span></h1>
