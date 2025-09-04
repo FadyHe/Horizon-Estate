@@ -10,9 +10,9 @@ function AboutUs() {
         </section>
 
 
-        <section className="flex flex-col sm:grid sm:grid-cols-2 gap-x-20 mx-6">
+        <section className="flex flex-col justify-center items-center md:grid md:grid-cols-2 md:content-center gap-x-20 mx-6">
           <section>
-            <img src={brandImg} alt="" className="mb-20 max-auto rounded-b-2xl"/>
+            <img src={brandImg} alt="" className="mb-20 max-w-[80%] rounded-b-2xl"/>
           </section>
 
 
