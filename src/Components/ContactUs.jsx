@@ -6,7 +6,7 @@ function ContactUs () {
       <h1 className="text-5xl font-bold mb-3 text-center">Contact <span className=" font-light underline">With Us</span></h1>
       <p className="text-gray-500 mt-3 text-2xl text-center w-[50%] mb-20">Ready to Make a Move? Let’s Build Your Future Together</p>
 
-      <form action="" className="flex flex-col gap-6 w-[80%] md:w-[50%]">
+      <form action="" className="flex flex-col gap-6 w-[80%] md:w-[40%]">
         <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
         <label htmlFor="name" className="flex flex-col gap-2 text-xl">
           <span>Your Name</span>
