@@ -14,8 +14,8 @@ function Header() {
     <>
     <header style={{ backgroundImage: `url(${headerImg})` }} className="min-h-screen bg-cover bg-center w-full outfit flex flex-col" id="hero">
       
-      <section>
-        <nav className="backdrop-blur-3xl h-20 flex flex-row justify-around items-center  rounded-full w-[95%] m-auto">
+      <section className="w-full flex justify-center">
+        <nav className="backdrop-blur-3xl h-20 flex flex-row justify-around items-center absolute top-5  rounded-full w-[95%] m-auto">
         <section className="-ml-5">
           <Brand />
         </section>
@@ -92,8 +92,10 @@ function Header() {
       <section className="flex flex-col justify-center items-center gap-6 mt-auto mb-auto">
         <h1 className="text-5xl/[1.5] md:text-7xl text-center text-white font-bold line-">Explore homes that fit your dreams</h1>
         <div className="flex flex-row gap-6 mt-15">
-          <button className="p-2 px-6 text-white text-xl bg-none border border-white rounded-2xl hover:opacity-85 active:opacity-100 active:scale-95 cursor-pointer ease-in-out duration-300">Projects</button>
-          <button className="p-2 px-6 text-white text-xl bg-blue-400 border-none rounded-2xl hover:opacity-85 active:opacity-100 active:scale-95 cursor-pointer ease-in-out duration-300">Contact Us</button>
+          <a href="#projects">
+              <button className="p-2 px-6 text-white text-xl bg-none border border-white rounded-2xl hover:opacity-85 active:opacity-100 active:scale-95 cursor-pointer ease-in-out duration-300">Projects</button></a>
+              <a href="#contactus">
+              <button className="p-2 px-6 text-white text-xl bg-blue-400 border-none rounded-2xl hover:opacity-85 active:opacity-100 active:scale-95 cursor-pointer ease-in-out duration-300">Contact Us</button></a>
         </div>
       </section>
     
