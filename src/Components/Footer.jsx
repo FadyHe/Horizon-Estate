@@ -1,8 +1,9 @@
 import Brand from "./Brand.jsx"
+
 export function Footer () {
   return(
     <>
-      <footer className=" bg-gray-900 flex flex-col justify-start gap-3 outfit p-4 m-auto w-full ">
+      <footer className=" bg-gray-900 flex flex-col justify-start gap-3 outfit p-4 m-auto w-full" id="footer">
         <div className="flex flex-col whitespace-pre-wrap justify-start gap-3 md:grid md:grid-cols-4 md:gap-10 w-full">
           <section className="mb-5">
             <Brand />
@@ -12,14 +13,14 @@ export function Footer () {
           <section className="ml-5 my-10">
             <h1 className="outfit text-3xl text-white -ml-2 md:text-3xl mb-3">Company</h1>
             <ul className="text-gray-500 outfit text-xl gap-y-1.5 flex flex-col ">
-              <li className="hover:opacity-85 cursor-pointer active:scale-97 duration-300"><a href="">Home</a></li>
-              <li className="hover:opacity-85 cursor-pointer active:scale-97 duration-300"><a href="">About Us</a></li>
-              <li className="hover:opacity-85 cursor-pointer active:scale-97 duration-300"><a href="">Contact Us</a></li>
-              <li className="hover:opacity-85 cursor-pointer active:scale-97 duration-300"><a href="">Privacy Policy</a></li>
+              <li className="hover:opacity-85 cursor-pointer active:scale-97 duration-300"><a href="#hero">Home</a></li>
+              <li className="hover:opacity-85 cursor-pointer active:scale-97 duration-300"><a href="#aboutus">About Us</a></li>
+              <li className="hover:opacity-85 cursor-pointer active:scale-97 duration-300"><a href="#contactus">Contact Us</a></li>
+              <li className="hover:opacity-85 cursor-pointer active:scale-97 duration-300"><a href="#footer">Privacy Policy</a></li>
             </ul>
           </section>
 
-          <section className="my-9">
+          <section className="ml-5 my-9">
             <h1 className="outfit text-3xl text-white -ml-2 md:text-3xl mb-3">Address</h1>
             <ul className="text-gray-500 outfit text-xl gap-y-1.5 flex flex-col ">
               <li className="hover:opacity-85 cursor-pointer active:scale-97 duration-300"><a href="">Horizon Estates Products, Inc. <br /> 5st. lestro Way</a></li>
@@ -29,7 +30,7 @@ export function Footer () {
             </ul>
           </section>
 
-          <section className="my-5">
+          <section className="ml-5 my-5">
             <h1 className="outfit text-3xl text-white -ml-2 md:text-3xl mb-3">Subscribe to our newsletter</h1>
             <p className="text-gray-500 outfit text-xl mb-4">The latest news, articles, and resources, sent to your inbox weekly.</p>
             <label htmlFor="email" className="flex flex-row gap-2">

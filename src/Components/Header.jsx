@@ -12,7 +12,7 @@ function Header() {
 
   return (
     <>
-    <header style={{ backgroundImage: `url(${headerImg})` }} className="min-h-screen bg-cover bg-center w-full outfit flex flex-col">
+    <header style={{ backgroundImage: `url(${headerImg})` }} className="min-h-screen bg-cover bg-center w-full outfit flex flex-col" id="hero">
       
       <section>
         <nav className="backdrop-blur-3xl h-20 flex flex-row justify-around items-center  rounded-full w-[95%] m-auto">
@@ -21,10 +21,10 @@ function Header() {
         </section>
         <section>
           <ul className=" flex-row m-auto gap-10 text-white text-xl hidden md:flex">
-              <li className="hover:opacity-85 cursor-pointer duration-300 active:scale-95 transform transition"><a href="">Home</a></li>
-              <li className="hover:opacity-85 cursor-pointer duration-300 active:scale-95 transform transition"><a href="">Projects</a></li>
-              <li className="hover:opacity-85 cursor-pointer duration-300 active:scale-95 transform transition"><a href="">Testimonials</a></li>
-              <li className="hover:opacity-85 cursor-pointer duration-300 active:scale-95 transform transition"><a href="">About</a></li>
+              <li className="hover:opacity-85 cursor-pointer duration-300 active:scale-95 transform transition"><a href="#hero">Home</a></li>
+              <li className="hover:opacity-85 cursor-pointer duration-300 active:scale-95 transform transition"><a href="#projects">Projects</a></li>
+              <li className="hover:opacity-85 cursor-pointer duration-300 active:scale-95 transform transition"><a href="#testimonials">Testimonials</a></li>
+              <li className="hover:opacity-85 cursor-pointer duration-300 active:scale-95 transform transition"><a href="#aboutus">About</a></li>
           </ul>
         </section>
         <section className="hidden md:block">
@@ -56,7 +56,7 @@ function Header() {
               Home
             </a>
             <a
-              href="#rockets"
+              href="#projects"
               className="w-full py-6 text-center hover:opacity-90 mb-6"
               onClick={toggleMenu}
             >
@@ -70,14 +70,14 @@ function Header() {
               Testimonials
             </a>
             <a
-              href="#contact"
+              href="#contactus"
               className="w-full py-6 text-center hover:opacity-90 mb-6"
               onClick={toggleMenu}
             >
               Contact Us
             </a>
             <a
-              href="#footer"
+              href="#aboutus"
               className="w-full py-6 text-center hover:opacity-90 mb-6"
               onClick={toggleMenu}
             >
