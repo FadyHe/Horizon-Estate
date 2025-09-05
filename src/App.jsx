@@ -3,8 +3,7 @@ import Footer from "./Components/Footer.jsx"
 import Header from "./Components/Header.jsx"
 import Projects from "./Components/Projects.jsx"
 import Testimonial from "./Components/Testimonials.jsx";
-import { BrowserRouter as Router, Routes, Route, Link } from "react-router-dom";
-
+import ContactUs from "./Components/ContactUs.jsx";
 
 function App() {
 
@@ -14,18 +13,14 @@ function App() {
       <>
     <div className="flex flex-col min-h-screen">
       <Header />
-      <main className="flex-grow">
+        <main className="flex-grow overflow-y-auto">
         <AboutUs />
         <Projects />
         <Testimonial />
+        <ContactUs />
       </main>
       <Footer />
     </div>
-    <Router> 
-      <Routes>
-
-      </Routes>
-    </Router>
     </>
   )
 }
